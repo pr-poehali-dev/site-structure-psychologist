@@ -252,12 +252,21 @@ const Index = () => {
                   <Icon name="MessageCircle" className="mr-2" size={20} />
                   WhatsApp
                 </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  onClick={() => window.open('https://t.me/psychologist', '_blank')}
+                  className="text-lg px-8"
+                >
+                  <Icon name="Send" className="mr-2" size={20} />
+                  Telegram
+                </Button>
               </div>
             </div>
 
             <div className="animate-scale-in">
               <img
-                src="https://cdn.poehali.dev/projects/73594ccc-5730-458f-ab72-e3c4e7c09ad9/files/c26b62ed-9580-4c06-8bc3-8c94005f073c.jpg"
+                src="https://cdn.poehali.dev/files/1313f299-39ef-4caa-998f-36687c79a87e.jpg"
                 alt="Ольга Пименова"
                 className="rounded-3xl shadow-2xl w-full max-w-md mx-auto"
               />
