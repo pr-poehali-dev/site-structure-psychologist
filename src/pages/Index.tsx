@@ -240,9 +240,7 @@ const Index = () => {
                 10 лет опыта. Индивидуальные и семейные консультации онлайн и в Одинцове
               </p>
               <div className="flex flex-wrap gap-3">
-                <Button size="lg" onClick={() => scrollToSection('contact')} className="px-6">
-                  Записаться
-                </Button>
+                <Button size="lg" onClick={() => scrollToSection('contact')} className="px-6">Записаться на консультацию</Button>
                 <Button
                   size="lg"
                   variant="outline"
