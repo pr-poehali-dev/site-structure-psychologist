@@ -239,26 +239,26 @@ const Index = () => {
               <p className="text-xl text-muted-foreground">
                 10 лет опыта. Индивидуальные и семейные консультации онлайн и в Одинцове
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Button size="lg" onClick={() => scrollToSection('contact')} className="text-lg px-8">
-                  Записаться на консультацию
+              <div className="flex flex-wrap gap-3">
+                <Button size="lg" onClick={() => scrollToSection('contact')} className="px-6">
+                  Записаться
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   onClick={() => window.open('https://wa.me/79999999999', '_blank')}
-                  className="text-lg px-8"
+                  className="px-5"
                 >
-                  <Icon name="MessageCircle" className="mr-2" size={20} />
+                  <Icon name="MessageCircle" className="mr-2" size={18} />
                   WhatsApp
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   onClick={() => window.open('https://t.me/psychologist', '_blank')}
-                  className="text-lg px-8"
+                  className="px-5"
                 >
-                  <Icon name="Send" className="mr-2" size={20} />
+                  <Icon name="Send" className="mr-2" size={18} />
                   Telegram
                 </Button>
               </div>
