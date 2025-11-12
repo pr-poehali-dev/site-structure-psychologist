@@ -306,7 +306,7 @@ const Index = () => {
 
             <div>
               <img
-                src="https://cdn.poehali.dev/files/1df632f4-436d-4a20-9dc9-fe52e68c61c9.jpg"
+                src="https://cdn.poehali.dev/projects/73594ccc-5730-458f-ab72-e3c4e7c09ad9/files/c45d52c0-c6f3-426c-91f8-bbe7d86c02cc.jpg"
                 alt="Рабочее место"
                 className="rounded-3xl shadow-xl w-full"
               />
